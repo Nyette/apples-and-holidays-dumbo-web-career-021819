@@ -63,8 +63,10 @@ def all_supplies_in_holidays(holiday_hash)
     data.each do |holiday, supplies|
       holiday_string = holiday.to_s
       array_split_holiday_string = holiday_string.split("_")
+      array_capitalized_holiday_words = []
         array_split_holiday_string.each do |word|
-          capitalized_holiday_word = word.capitalize
+          array_capitalized_holiday_words << word.capitalize
+          
       
 end
 
