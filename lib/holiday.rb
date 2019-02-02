@@ -67,6 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
       array_holiday_words.each do |word|
         array_capitalized_holiday_words << word.capitalize
       end
+      
     end
     
     
