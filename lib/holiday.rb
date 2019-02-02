@@ -58,7 +58,8 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_supplies.each do |season, data|
     season_as_string = season.to_s
-    capitalized_season_as_string = season_as_string.capitalize!
+    capitalized_season_as_string = season_as_string.capitalize
+    puts "#{capitalized_season_as_string}:"
     
 end
 
