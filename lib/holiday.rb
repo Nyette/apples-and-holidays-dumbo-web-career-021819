@@ -53,10 +53,10 @@ def all_supplies_in_holidays(holiday_hash)
   # Winter:
   #   Christmas: Lights, Wreath
   #   New Years: Party Hats
-  # Summer:
+  #   Summer:
   #   Fourth Of July: Fireworks, BBQ
-  # etc.
-
+  #   etc.
+  
 end
 
 def all_holidays_with_bbq(holiday_hash)
