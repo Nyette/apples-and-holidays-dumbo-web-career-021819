@@ -66,8 +66,8 @@ def all_supplies_in_holidays(holiday_hash)
       array_capitalized_holiday_words = []
         array_split_holiday_string.each do |word|
           array_capitalized_holiday_words << word.capitalize
-          
-      
+        end
+      end
 end
 
 def all_holidays_with_bbq(holiday_hash)
